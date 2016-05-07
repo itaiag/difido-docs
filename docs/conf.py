@@ -30,7 +30,7 @@ import os
 # ones.
 extensions = [
     'sphinx.ext.todo',
-    'sphinx.ext.imgmath',
+    # 'sphinx.ext.imgmath',
     'sphinx.ext.githubpages',
 ]
 
