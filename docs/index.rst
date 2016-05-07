@@ -14,8 +14,8 @@ Contents:
    installation
    running
    configuring
-   serverconfig
-   clientconfig
+   api
+   serverasinitd
 
 
 

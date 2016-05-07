@@ -1,2 +1,0 @@
-Difido server configuration
-===========================
