@@ -78,11 +78,11 @@ In addition, you can start, stop and restart the server using the following comm
 
 * The server configuration files exist the _config_ folder. Open for edit the _difido_config.properties_ file.
 
-~~~~
+~~~~~
 max.execution.idle.time.in.seconds=60  -   The maximum period of time in seconds in which the server is allowed to be idle before closing the current execution.
 doc.root.folder=docRoot                -    Location of the static HTML files 
 path.data=data/index                   -  Location of the Elasticsearch data
-```
+~~~~~
 
 To configure the port and host of the server
 

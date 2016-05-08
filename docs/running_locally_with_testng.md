@@ -25,14 +25,14 @@ The Difido project
 	<artifactId>difido-reports-common</artifactId>
 	<version>1.3</version>
 </dependency>
+~~~~~
 
-~~~~
 
 ## Adding the Difido as listener
 You can register the Difido in any standard TestNG registration method. The recommended way is to use *@Listeners* annotation
 
-~~~~ Java
 
+~~~~~ Java
 @Listeners(il.co.topq.difido.ReportManagerHook.class)
 public abstract class AbstractTestCase {
 	
@@ -40,7 +40,7 @@ public abstract class AbstractTestCase {
 
 }
 
-~~~~
+~~~~~
 After registration, the report dispatcher object is available for your use.
 
 ## Output
