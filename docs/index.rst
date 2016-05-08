@@ -11,12 +11,12 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   installation
-   running
-   configuring
-   api
-   serverasinitd
-
+   running_locally_with_testng
+   running_locally_with_jsystem
+   the_difido_server
+   server_advanced_features
+   developers
+   server_api
 
 
 Indices and tables
