@@ -28,25 +28,25 @@ First, you will need a script that can start, stop and restart the server. You c
 readonly DIFIDO_PATH=/usr/local/bin/difido-server
 
 function start {
-	cd $DIFIDO_PATH
+    cd $DIFIDO_PATH
         /bin/bash bin/start.sh
 }
 
 function stop {
-	cd $DIFIDO_PATH
+    cd $DIFIDO_PATH
         /bin/bash bin/stop.sh
 
 }
 
 case $1 in
     start)
-	    start
+        start
     ;;
     stop)
-	    stop
+        stop
     ;;
     restart)
-	    stop
+        stop
         start 
     ;;
 esac
@@ -87,8 +87,16 @@ path.data=data/index                   -  Location of the Elasticsearch data
 To configure the port and host of the server
 
 ### Windows
+Open for edit the **bin/start.bat** file and set the values of the **-Dserver.address** and the **-Dserver.port** properties
 
 ### Linux
+Open for edit the **bin/start.sh* file, search for PORT and HOST variables and set it with your server details.
+
+~~~~~
+readonly PORT=8080
+
+readonly HOST=0.0.0.0
+~~~~~  
 
 
 ## Basic Client Configuration

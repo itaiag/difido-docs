@@ -11,8 +11,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   running_locally_with_testng
-   running_locally_with_jsystem
+   report_server_features
+   running_with_testng
+   running_with_jsystem
    the_difido_server
    server_advanced_features
    developers

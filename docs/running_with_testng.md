@@ -1,4 +1,4 @@
-# Running Locally with TestNG
+# Running with TestNG
 
 Difido can use with the TestNG framework to create flexible reports that can be viewed at run-time.
 
